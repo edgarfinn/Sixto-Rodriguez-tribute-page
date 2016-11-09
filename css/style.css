@@ -1,0 +1,68 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: LightSteelBlue;
+}
+h1 {
+  
+  padding: 10px;
+}
+img {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    position: centre;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    border-top: 20px solid LightSteelBlue
+    
+}
+.image-title h2 {
+  font-family: times
+  text-align: centre;
+  margin: 5px auto
+}
+.image-title:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  color: Gold;
+  background-color: LightSteelBlue;
+  border-color: LightSteelBlue;
+}
+
+.image-title {
+      display: relative;
+      text-align: centre;
+      background-color: LightSteelBlue;
+;
+      align-items: center;
+      filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); 
+}
+
+li {
+  padding: 5px;
+}
+
+.text-centre {
+  text-align: center;
+}
+
+.list-centre {
+  display:table; 
+  margin:0 auto;
+
+}
+
+time {
+  font-weight: bold;
+}
+
+.timeline {
+  margin: auto;
+  max-width: 50em;
+  background-color: LightSteelBlue;
+
+}
